@@ -3,10 +3,12 @@ def checkPairSum(num1, k):
     for element in num1:
 
         if k - element in hash_set:
-            print(element, k-element)
+            search_value = k-element
+            print(search_value, element)
+            hash_set.remove(search_value)
         else:
             hash_set.add(element)
 
 
-num1 = [1, 3, 6, 2, 5, 1]
+num1 = [1, 3, 6, 2, 5, 6, 1]
 checkPairSum(num1, 7)
