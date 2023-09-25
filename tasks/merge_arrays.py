@@ -20,6 +20,7 @@ def merge(nums1, m, nums2, n):
         j -= 1
         k -= 1
 
+
 # data for test
 nums1 = [1, 2, 6, 8, 0, 0, 0, 0]
 m = 4
